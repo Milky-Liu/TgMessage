@@ -64,6 +64,6 @@ class Bot
 
     public function decryption($text): string
     {
-        return substr(base64_decode($text), strlen($this->key));
+        return substr(base64_decode($text), strlen($this->key)); 
     }
 }
